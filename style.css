@@ -1,0 +1,62 @@
+body {
+    font-family: "Inter", serif;
+    font-size: 14px;
+    background-color: hsl(0, 0%, 8%);
+}
+
+p {
+    font-size: 14px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 25%;
+    height: 65dvh;
+    margin-top: 10%;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+.img-profile {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+
+.botoes {
+    display: grid;
+    place-items: center;
+}
+
+.botao {
+    display: grid;
+    place-items: center;
+    font-weight: 600;    
+    text-decoration: none;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    margin-bottom: 5%;
+    height: 3rem;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.name {
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    color: white;
+}
+
+.subtitulo {
+    color: white;
+}
