@@ -1,16 +1,12 @@
 body {
-    font-family: "Inter", serif;
-    font-size: 14px;
+    font-family: "Inter", serif;    
     background-color: hsl(0, 0%, 8%);
-}
-
-p {
-    font-size: 14px;
 }
 
 main {
     display: flex;
     justify-content: center;
+    color: white;
 }
 
 .container {    
@@ -18,7 +14,7 @@ main {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 25%;
+    width: 28dvw;
     height: 65dvh;
     margin-top: 10%;
     background-color: hsl(0, 0%, 12%);
@@ -29,6 +25,7 @@ main {
     width: 70px;
     height: 70px;
     border-radius: 50%;
+    margin-bottom: 15px;
 }
 
 
@@ -40,23 +37,29 @@ main {
 .botao {
     display: grid;
     place-items: center;
-    font-weight: 600;    
+    font-weight: 600;
+    font-size: 14px;    
     text-decoration: none;
     color: white;
     background-color: hsl(0, 0%, 20%);
     margin-bottom: 5%;
-    height: 3rem;
+    height: 2.5rem;
     width: 80%;
     border-radius: 10px;
 }
 
 .name {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
     color: white;
+    margin: 0;
 }
 
-.subtitulo {
-    color: white;
+.subtitulo {    
+    font-size: 14px;
+}
+
+.phrase {
+    font-size: .8rem;
 }
