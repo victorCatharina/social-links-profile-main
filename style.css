@@ -14,18 +14,18 @@ main {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 28dvw;
-    height: 65dvh;
-    margin-top: 10%;
+    width: 28vw;
+    height: 65vh;
+    margin-top: 17vh;
     background-color: hsl(0, 0%, 12%);
     border-radius: 10px;
 }
 
 .img-profile {
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
-    margin-bottom: 15px;
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    margin-bottom: 30px;
 }
 
 
@@ -43,9 +43,14 @@ main {
     color: white;
     background-color: hsl(0, 0%, 20%);
     margin-bottom: 5%;
-    height: 2.5rem;
+    height: 4.5vh;
     width: 80%;
     border-radius: 10px;
+}
+
+.botao:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
 }
 
 .name {

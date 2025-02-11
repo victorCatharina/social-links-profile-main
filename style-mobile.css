@@ -1,0 +1,6 @@
+
+@media (min-width: 320px) AND (max-width: 920px) {
+    .container {        
+        width: 65vw;
+    }
+}    
